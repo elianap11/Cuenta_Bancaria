@@ -14,10 +14,12 @@ comprobando que las cuentas no pueden tener el mismo cbu
 * generar el archivo UML con la o las clases utilizadas : UMLetino - Free Online UML Tool for Fast UML Diagrams
  */
  
-package cuenta.bancaria;
+package com.cuentaBancaria.main;
+
+import com.cuentaBancaria.entidades.CuentaBancaria;
 
 
-public class principal {
+public class Principal {
 
     /**
      * @param args the command line arguments

@@ -13,12 +13,8 @@ comprobando que las cuentas no pueden tener el mismo cbu
 * generar el archivo UML con la o las clases utilizadas : UMLetino - Free Online UML Tool for Fast UML Diagrams
 
  */
-package cuenta.bancaria;
+package com.cuentaBancaria.entidades;
 
-/**
- *
- * @author Yo
- */
 public class CuentaBancaria {
     
     private Long cbu;
@@ -28,14 +24,8 @@ public class CuentaBancaria {
     private String tipoCuenta;
 
     public CuentaBancaria() {
-    }
-
-    public CuentaBancaria(Long cbu, String alias, Double saldo, String moneda, String tipoCuenta) {
-        this.cbu = cbu;
         this.alias = "mi.nuevo.alias";
         this.saldo = 0D;
-        this.moneda = moneda;
-        this.tipoCuenta = tipoCuenta;
     }
 
     public Long getCbu() {
@@ -82,8 +72,4 @@ public class CuentaBancaria {
     public String toString() {
         return "CuentaBancaria{" + "cbu=" + cbu + ", alias=" + alias + ", saldo=" + saldo + ", moneda=" + moneda + ", tipoCuenta=" + tipoCuenta + '}';
     }
-  
-  
-    
-    
 }
